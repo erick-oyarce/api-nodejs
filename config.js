@@ -4,15 +4,15 @@ module.exports = {
 	jwt_secreto : '613f1330104db730cc8190bc8e3d97bf',
 	jwt_expiracion : '8h',
 	dbconexion: {
-		host: '138.99.6.164',
-		user: 'sa',
-		pass: 'ToQNGL391#.',
-		dbname: 'bd_centure_cloud_v2'
+		host: '127.0.0.1',
+		user: 'admin',
+		pass: '',
+		dbname: 'prueba'
     },
     correo: {
-        "usuario": "no-reply@glgroup.cl"
-        , "pass": "ToQNGL391#."
-        , "to": "soporte@glgroup.cl, "
+        "usuario": "correo_origen@gmail.com"
+        , "pass": "123"
+        , "to": "correo_destino@gmail.com " //se utiliza como respaldo de información
         
     }
 }
